@@ -21,6 +21,6 @@ public class GameM : MonoBehaviour
 
     public void Replay()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 }

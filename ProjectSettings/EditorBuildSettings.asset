@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: d093062d3d7b8de498cbb00f9718d388
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/ThiefRunner.unity
+    path: Assets/Scenes/ThiefRunner.unity
     guid: e06112d210f65bc48a736ff385b077ee
   m_configObjects: {}
