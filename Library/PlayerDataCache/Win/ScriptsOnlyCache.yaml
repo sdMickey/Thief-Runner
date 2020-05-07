@@ -1,13 +1,11 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - AddScore
     - BrickGenerator
     - Destroy
     - GameM
     - MainMenu
     - PlayerMovement
-    - Score
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -24,8 +22,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -61,31 +61,33 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9674}
+      Script: {instanceID: 9696}
     - Class: 114
-      Script: {instanceID: 9878}
+      Script: {instanceID: 9860}
     - Class: 114
-      Script: {instanceID: 10280}
+      Script: {instanceID: 9900}
     - Class: 114
       Script: {instanceID: 10300}
     - Class: 114
-      Script: {instanceID: 10654}
+      Script: {instanceID: 10320}
     - Class: 114
-      Script: {instanceID: 10880}
+      Script: {instanceID: 10322}
     - Class: 114
-      Script: {instanceID: 10894}
+      Script: {instanceID: 10674}
     - Class: 114
-      Script: {instanceID: 11070}
+      Script: {instanceID: 10900}
     - Class: 114
-      Script: {instanceID: 11132}
+      Script: {instanceID: 10914}
     - Class: 114
-      Script: {instanceID: 11298}
+      Script: {instanceID: 11090}
     - Class: 114
-      Script: {instanceID: 11406}
+      Script: {instanceID: 11152}
     - Class: 114
-      Script: {instanceID: 11502}
+      Script: {instanceID: 11318}
     - Class: 114
-      Script: {instanceID: 15694}
+      Script: {instanceID: 11426}
+    - Class: 114
+      Script: {instanceID: 11522}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -132,17 +134,17 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9674}
+      Script: {instanceID: 9696}
     - Class: 114
-      Script: {instanceID: 10280}
+      Script: {instanceID: 10300}
     - Class: 114
-      Script: {instanceID: 10752}
+      Script: {instanceID: 10772}
     - Class: 114
-      Script: {instanceID: 10774}
+      Script: {instanceID: 10794}
     - Class: 114
-      Script: {instanceID: 11132}
+      Script: {instanceID: 11152}
     - Class: 114
-      Script: {instanceID: 11502}
+      Script: {instanceID: 11522}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -189,31 +191,31 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9674}
+      Script: {instanceID: 9696}
     - Class: 114
-      Script: {instanceID: 9730}
+      Script: {instanceID: 9752}
     - Class: 114
-      Script: {instanceID: 9838}
+      Script: {instanceID: 9860}
     - Class: 114
-      Script: {instanceID: 9878}
+      Script: {instanceID: 9900}
     - Class: 114
-      Script: {instanceID: 10148}
+      Script: {instanceID: 10300}
     - Class: 114
-      Script: {instanceID: 10280}
+      Script: {instanceID: 10452}
     - Class: 114
-      Script: {instanceID: 10412}
+      Script: {instanceID: 10674}
     - Class: 114
-      Script: {instanceID: 10432}
+      Script: {instanceID: 10772}
     - Class: 114
-      Script: {instanceID: 10654}
+      Script: {instanceID: 10794}
     - Class: 114
-      Script: {instanceID: 10752}
+      Script: {instanceID: 11152}
     - Class: 114
-      Script: {instanceID: 10774}
+      Script: {instanceID: 11522}
     - Class: 114
-      Script: {instanceID: 11132}
+      Script: {instanceID: 14010}
     - Class: 114
-      Script: {instanceID: 11502}
+      Script: {instanceID: 26234}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -383,12 +385,6 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AddScore
-  - hash:
-      serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -413,6 +409,12 @@ ScriptsOnlyBuild:
     className: ControlPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MainMenu
+  - hash:
+      serializedVersion: 2
       Hash: b8a5e8091ab0b8861d2add371082c5e0
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -429,12 +431,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Selectable
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Score
   - hash:
       serializedVersion: 2
       Hash: 054c11ebe7357ca64685056210b17e5a
@@ -497,7 +493,7 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: e6529dee75f717207213ba38a8612996
+      Hash: d219482c6aa5a425fc3c1d3dab62e18c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerMovement
@@ -681,15 +677,9 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MainMenu
   platform: 5
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/ThiefRunner.unity
-  playerPath: E:/ncu/sem 6/2d gd/2d game/thief runner/thief runner.exe
+  playerPath: E:/ncu/sem 6/2d gd/2d game/thief runner/BuildFiles/thief runner.exe
