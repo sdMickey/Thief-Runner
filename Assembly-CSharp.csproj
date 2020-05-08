@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\BrickGenerator.cs" />
     <Compile Include="Assets\Scripts\Destroy.cs" />
     <Compile Include="Assets\Scripts\GameM.cs" />
+    <Compile Include="Assets\Scripts\HighScoreMenu.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />

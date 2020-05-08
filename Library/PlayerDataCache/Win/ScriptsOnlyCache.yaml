@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - BrickGenerator
     - Destroy
     - GameM
+    - HighScoreMenu
     - MainMenu
     - PlayerMovement
     Unity.2D.Tilemap.Editor.dll:
@@ -22,10 +23,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -75,6 +74,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10674}
     - Class: 114
+      Script: {instanceID: 10772}
+    - Class: 114
       Script: {instanceID: 10900}
     - Class: 114
       Script: {instanceID: 10914}
@@ -88,6 +89,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11426}
     - Class: 114
       Script: {instanceID: 11522}
+    - Class: 114
+      Script: {instanceID: 15230}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -213,9 +216,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11522}
     - Class: 114
-      Script: {instanceID: 14010}
+      Script: {instanceID: 13990}
     - Class: 114
-      Script: {instanceID: 26234}
+      Script: {instanceID: 14042}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -677,6 +680,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e8645e3a71f1e32d5c8207af828d3b6b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HighScoreMenu
   platform: 5
   scenePathNames:
   - Assets/Scenes/MainMenu.unity

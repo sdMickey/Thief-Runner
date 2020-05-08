@@ -77,7 +77,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void OnGameOver()
+    public void OnGameOver()
     {
         var highScore = PlayerPrefs.GetInt("HIGHSCORE");
         highScore = score > highScore ? score : highScore;
