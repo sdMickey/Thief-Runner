@@ -1,6 +1,6 @@
 # Thief-Runner
 An endless runner game in unity. 
-> To run the game just download the BuildFiles folder and run the .exe executable file. Make sure you download all the files in the BuildFiles folder and keep then together in one directory else the game won't run.
+> To run the game just download the BuildFiles.zip file and run the .exe executable file. Make sure you download all the files in the BuildFiles.zip file and keep then together in one directory else the game won't run.
 
 ## About the game
 You are the world famous thief Joaquin Fernandes about to steal the jewels and money from a normal home, a normal day job.  As it turns out, the house belongs to the Home Minister’s niece and as soon as she wakes up an finds you she calls to the security downstairs who then start shooting at you. You have no choice but to run. So strap on to those shoes and tighten those laces because its going to be a long one. RUN!
